@@ -1,0 +1,151 @@
+element {
+  overflow: hidden;
+  height: 100%;
+  border: medium none;
+  padding: 0px;
+  margin: 0px;
+}
+.ui-layout-north {
+  padding: 0px;
+  background: #FFFFFF;
+  border: none !important;
+  overflow: hidden;
+}
+
+/* #header {
+background: url(https://brihc.bri.co.id/images/mini-header-bri.png) top right no-repeat;
+height: 33px;
+width: auto;
+margin: 0px 0px 0px 0px;
+padding: 5px 0px 0px 20px;
+color: #010080;
+font: bold 24px Georgia,"Times New Roman",Times,serif;
+letter-spacing: 1px;
+border-bottom: 4px solid #947d00;
+text-align: center;
+} */
+
+#header {
+  background: url(https://brihc.bri.co.id/images/mini-header-bri.png) top right no-repeat;
+  height: 33px;
+  width: auto;
+  margin: 0px 0px 0px 0px;
+  /* padding: 1px 0px 5px 0px; */
+  color: #010080;
+  font: bold 24px Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  border-bottom: 5px solid #004694;
+  text-align: center;
+}
+
+#pane-breadcrumb {
+  background: #FB7F01;
+  text-align: right;
+  font-size: 12px;
+  color: #ffffff;
+  width: auto;
+  padding: 0px 0px 14px 0px;
+  margin: 0px;
+}
+
+#box-logout {
+  background: #E0E0E0;
+  float: right;
+  margin: 0px;
+  padding: 1px 10px 1px 10px;
+  text-align: center;
+  border-left: 1px solid #BBBBBB;
+}
+
+#box-logout {
+  text-align: center;
+}
+
+#user-info {
+  margin: 0px 0px 0px 0px;
+  padding: 1px 10px 1px 10px;
+  float: right;
+}
+
+#date-info {
+  margin: 0px 500px 0px 0px;
+  padding: 1px 10px 1px 5px;
+  text-align: left;
+}
+
+.ui-layout-center {
+  padding: 0px;
+  border-right: none !important;
+}
+
+.ui-layout-pane {
+  background: #FFF;
+  border: 1px solid #BBB;
+  border-right-color: rgb(187, 187, 187);
+  border-right-style: solid;
+  border-right-width: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: auto;
+}
+
+h1.maintitle {
+  font-size: 24px;
+  border-bottom: 2px solid #bcbcbc;
+  margin: 10px 10px 10px 10px;
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #505050;
+}
+
+fieldset {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #00509A;
+}
+
+legend {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  padding: 3px 10px 3px 10px;
+  border: 1px solid #00509A;
+  font-weight: bold;
+  color: #00509A;
+  font-size: 14px;
+  background: #e8ebff;
+}
+
+.tcell {
+  color: #00509A;
+  font-size: 12px;
+}
+
+.ui-layout-resizer {
+  background-color: #FB7F01 !important;
+}
+
+.ui-layout-resizer {
+  background: #DDD;
+  background-color: rgb(221, 221, 221);
+  border: 1px solid #BBB;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-width: 0;
+}
+
+.ui-layout-south {
+  padding-top: 2px;
+  padding-bottom: 6px;
+  background: #004694;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 5px solid #FB7F01;
+  text-align: center;
+  color: #ffffff;
+  font: 12px Georgia, "Times New Roman", Times, serif;
+  overflow: hidden;
+}

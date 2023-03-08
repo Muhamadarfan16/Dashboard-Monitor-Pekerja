@@ -1,0 +1,119 @@
+.home {
+    text-align: center;
+    color: blue;
+    padding-top: 20px;
+}
+
+.header_modal{
+    text-align: center;
+    color: black;
+    text-align: center;
+    background-color: red;
+}
+
+/* ============================== */
+
+element {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    position: absolute;
+    inset: 0px;
+}
+
+body {
+    background: #E0E0E0;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 12px;
+}
+
+.ui-center {
+    padding: 0px; 
+    position: absolute; 
+    margin: 0px; 
+    inset: 58px 0px 25px 205px; 
+    height: 265px; 
+    width: 1319px; 
+    z-index: 0; 
+    display: block; 
+    visibility: visible;
+    border-right: none !important;
+}
+
+h1.maintitle {
+    font-size: 24px;
+    border-bottom: 2px solid #bcbcbc;
+    margin: 10px 10px 10px 10px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #505050;
+}
+
+fieldset {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #00509A;
+}
+
+#tb_filter{
+    border-collapse: collapse;
+    width: 100%;
+    border: 0px;
+    text-align: left;
+}
+
+.tcell {
+    color: #00509A;
+    font-size: 12px;
+    padding-left: 30px;
+}
+
+.tcell2 {
+    color: #00509A;
+    font-size: 12px;
+    padding-left: 1px;
+}
+
+.red {
+    color: #FF0000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.filterPN {
+    width: 60%;
+}
+
+.button {
+    background: #00509a;
+    border: 1px solid #002457;
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 #3E5A88;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 5px 3px 5px;
+    text-align: center;
+    cursor: pointer;
+    font-family: Arial;
+}
+
+.button2 {
+    background: #00509a;
+    border: 1px solid #002457;
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 #3E5A88;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 5px 3px 5px;
+    text-align: center;
+    cursor: pointer;
+    font-family: Arial;
+}
+
+.opt_kelas {
+    width: 60%;
+}

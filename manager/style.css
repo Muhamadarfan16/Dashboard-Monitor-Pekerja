@@ -1,0 +1,157 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin:0 !important;
+    max-width: 100% !important;
+    border: 4px solid #BDAC48;
+    background: black;
+}
+
+header {
+    grid-area: header;
+    text-align: center;
+    background-color: gray;
+    display: flex;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    border-bottom: 5px solid black;
+}
+  
+section {
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-flow: row dense;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+}
+
+.box {
+    width: 100%;
+    /* height: 50vh; */
+    background-color: white;
+    
+}
+
+.bigger {
+    grid-area: 1 / 2 / span 2;
+    /* height: 100vh; */
+}
+
+.box table thead {
+    background-color: #bc9100;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .box table tbody {
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center; 
+    border: 1px solid black;
+  }
+  
+  .pn {
+    text-align: left;
+  }
+
+/* Kondisi If Else */
+.txt-black {
+    color: black;
+}
+
+.txt-grey {
+    color: gray;
+}
+
+.txt-red {
+    color: red ;
+}
+
+.txt-yellow {
+    color: yellow;
+}
+
+.txt-green {
+    color: green;
+}
+
+/* Efek true checkbox */
+.text-coret {
+    text-decoration: line-through;
+}
+
+/*  */
+.border-keterangan {
+    border: 1px solid black;
+}
+
+/* Halaman Pekerjaan Manager */
+
+body, html {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.header {
+    background-color: rgba(0, 0, 255, 0.637);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.tablesize {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(43, 40, 40);
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px rgba(44, 43, 43, 0.9);
+}
+.table {
+    width: 100%;
+}
+
+
+
+/* Kondisi If Else */
+.txt-black {
+    color: black;
+}
+
+.txt-grey {
+    color: gray;
+}
+
+.txt-red {
+    color: red ;
+}
+
+.txt-yellow {
+    color: yellow;
+}
+
+.txt-green {
+    color: green;
+}
+
+
+/* Efek true checkbox */
+.text-coret {
+    text-decoration: line-through;
+}
